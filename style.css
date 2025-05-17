@@ -1,0 +1,189 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extra-bold {
+    font-weight: 800;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+/* Color */
+.p-color {
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.h-color {
+    color: rgba(39, 39, 39, 1);
+}
+
+/* Button */
+.btn-primary {
+    height: 64px;
+    width: 179px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    font-size: 20px;
+}
+
+/* Header */
+.cover {
+    display: flex;
+    justify-content: space-between;
+    gap: 97px;
+    background-color: rgba(229, 84, 115, 0.1);
+    background-size: cover;
+    align-items: center;
+}
+
+.cover-text {
+    margin: 197px 97px 0 240px;
+    padding-bottom: 197px;
+}
+
+.cover-text p {
+    margin: 32px 0 32px 0;
+}
+
+.cover img {
+    margin-bottom: -140px;
+}
+
+/* Section 1 */
+.about-flower {
+    text-align: center;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-container #flower {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#flower img {
+    height: 605px;
+    width: 464px;
+    border-radius: 300px 300px 0 0;
+}
+.flower-1 img{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2 img{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 img{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-container #flower u {
+    margin-top: 32px;
+}
+
+.delivary{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin: 128px 240px;
+    padding: 85px 175px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+/* Section 2 */
+.Sale{
+    display: flex;
+    gap: 215px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.Sing-Up {
+    margin: 230px 395px 162px 395px;
+    text-align: center;
+}
+.Insta{
+    text-align: center;
+    margin: 0 663px 48px 663px;
+}
+.some-flower{
+    display: flex;
+    gap: 24px;
+    margin: 0 240px;
+}
+.send-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    height: 449px;
+    margin: 128px 240px;
+}
+
+.Subscribe{
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+.Subscribe input{
+    border-radius: 10px;
+    border: none;
+    width: 700px;
+    background-color: white;
+    padding: 22px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+/* Footer */
+.footer{
+    background-color: rgba(17, 16, 16, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.9);
+    margin: 24px 650px 32px 650px;
+}
