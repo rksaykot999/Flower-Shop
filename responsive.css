@@ -1,0 +1,66 @@
+@media (max-width:768px) {
+    .cover {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .cover img {
+        display: none;
+    }
+
+    .cover-text {
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    .flower-container {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    #flower img {
+        width: 95vw;
+    }
+
+    .delivary {
+        margin: 10px 0 0 0;
+        padding: 10px 0;
+        gap: 30px;
+    }
+
+    .Sale {
+        flex-direction: column;
+        /* justify-content:first baseline; */
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .Sing-Up {
+        margin: 0;
+    }
+
+    .Insta {
+        margin: 0;
+    }
+
+    .some-flower {
+        flex-direction: column;
+        gap: 24px;
+        margin: 0;
+        /* width: 100vw; */
+    }
+    .send-feedback{
+        margin: 0;
+    }
+    .Subscribe{
+        gap: 5px;
+    }
+    .Subscribe input{
+        margin-left: 15px;
+        width: 50%;
+    }
+    .footer p {
+        margin: 10px;
+    }
+}
